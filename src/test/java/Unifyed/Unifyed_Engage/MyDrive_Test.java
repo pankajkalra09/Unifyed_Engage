@@ -27,6 +27,7 @@ public class MyDrive_Test extends BaseClass{
 	public void myDriveFileUpload() throws InterruptedException, IOException {
 		AdminMyDriveClass driveObject = new AdminMyDriveClass(driver);
 		driveObject.AddFile();
+		driveObject.fileDownload();
 	}
 
 }

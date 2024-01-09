@@ -41,6 +41,7 @@ public class BaseClass {
 				+ "\\src\\main\\java\\Unifyed\\Unifyed_Engage\\Resources\\GlobalData.properties");
 		prop.load(fis);
 		
+		
 		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") : prop.getProperty("browser");
 		// if condition 1 "System.getProperty("browser")!=null" is true which means we are getting value of browser at runtime from command prompt
 		//then run condition 2 "System.getProperty("browser")".
@@ -50,7 +51,15 @@ public class BaseClass {
 		
 		//prop.getProperty("browser");
 		if (browserName.contains("chrome")) {
+			//this code is to set the default download location of a file inside our project's parent location.
+			String downloadPath = System.getProperty("user.dir");
+			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+			chromePrefs.put("profile.default_content_settings_popups", 0);
+			chromePrefs.put("download.default_directory", downloadPath);
+			
 			ChromeOptions option = new ChromeOptions(); //used to run tests in headless mode
+			option.setExperimentalOption("prefs", chromePrefs);
+			//till here
 			WebDriverManager.chromedriver().setup();
 			if (browserName.contains("headless")) {
 				option.addArguments("headless");
