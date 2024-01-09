@@ -38,7 +38,8 @@ public class Listeners extends BaseClass implements ITestListener{
     public void onTestSuccess(ITestResult result) {					
         // TODO Auto-generated method stub	
 		//since we have a unique thread id for each test so replace test with extentTent.get().
-		extentTest.get().log(Status.PASS, "Test Passed");
+		//extentTest.get().log(Status.PASS, "Test Passed");
+		test.log(Status.PASS, "Test Passed");
         		
     }
 	
