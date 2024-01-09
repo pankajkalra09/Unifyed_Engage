@@ -32,14 +32,15 @@ public class AdminLoginPageClass extends CommonUtilsClass {
 	}
 	
 	public AdminLandingPageClass loginMethodMethod(String uname, String pword) throws InterruptedException {
-		//loginButton.click();
+		
+		loginButton.click();
 		Thread.sleep(3000);
 		username.sendKeys(uname);
 		Thread.sleep(1000);
 		password.sendKeys(pword);
 		Thread.sleep(1000);
 		singInButton.click();
-		Thread.sleep(2000);
+		Thread.sleep(6000);
 		AdminLandingPageClass landingPage = new AdminLandingPageClass(driver);
 		return landingPage;
 	}
