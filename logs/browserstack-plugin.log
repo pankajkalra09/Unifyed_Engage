@@ -1,0 +1,22 @@
+09:16:25.654 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+09:16:25.716 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.4, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=u8HoFRWtTAT4DfLphEEZ, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=qaqa_eo7wIO, BROWSERSTACK_FRAMEWORK=testng, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=testng:eclipse:v1.0.8]
+09:23:15.175 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+09:55:13.732 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+09:55:28.165 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+09:55:28.165 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+09:55:28.167 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Unifyed_Engage
+09:55:28.168 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+09:55:28.168 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+09:55:28.170 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Unifyed_Engage
+10:09:01.369 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+10:09:05.303 [Worker-50: Launching Unifyed_Engage_test_Suite.Sanity.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+10:09:05.307 [Worker-50: Launching Unifyed_Engage_test_Suite.Sanity.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+10:09:05.310 [Worker-50: Launching Unifyed_Engage_test_Suite.Sanity.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
+10:12:11.836 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+10:12:20.324 [Worker-57: Launching LoginLogoutTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+10:12:20.327 [Worker-57: Launching LoginLogoutTest] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+10:12:20.328 [Worker-57: Launching LoginLogoutTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
+10:13:56.011 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+10:15:43.189 [Worker-58: Launching Unifyed_Engage_test_Suite.Sanity.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
+10:16:42.817 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+12:33:17.478 [Framework stop - Equinox Container: 92ed6caf-04cc-47aa-b827-5d9e3a54d7fc] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

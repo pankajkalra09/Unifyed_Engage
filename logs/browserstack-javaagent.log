@@ -1,0 +1,36 @@
+09:55:45.613 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+09:55:45.618 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+09:55:45.892 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : E:\Projects\Unifyed_Engage\browserstack.yml
+09:55:45.975 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:55:45.988 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+09:55:47.152 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:56:03.023 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:56:24.245 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:01:06.932 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/gh37gidszmldlrg6fdvrf7jmen0ggrku8wg6gvqx to view build report, insights, and many more debugging information all at one place!
+
+10:01:07.641 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e5adff5953c58ef836a3d1bf5ff1acb35ae121d9
+10:01:07.641 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:01:10.391 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+10:09:07.162 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+10:09:07.165 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+10:09:07.457 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : E:\Projects\Unifyed_Engage\browserstack.yml
+10:09:07.540 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:09:07.554 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+10:09:09.429 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 57507 -protocol json -d E:\Projects\Unifyed_Engage\test-output E:\Projects\Unifyed_Engage\test_Suite\Sanity.xml
+10:09:09.500 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+10:09:17.667 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:09:26.564 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:11:42.525 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/mk4cevkb2l3ae8lqnyxg4ahxpre9d0q00rlgkfik to view build report, insights, and many more debugging information all at one place!
+
+10:11:43.160 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/66318599ed5e63391157613638d781e2afa323ad
+10:11:43.160 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:11:45.752 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+10:12:21.885 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+10:12:21.888 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+10:12:22.154 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : E:\Projects\Unifyed_Engage\browserstack.yml
+10:12:22.250 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:12:22.264 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+10:12:24.174 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 57981 -protocol json -d E:\Projects\Unifyed_Engage\test-output C:\Users\PHILIP~1\AppData\Local\Temp\testng-eclipse--75283091\testng-customsuite.xml
+10:12:24.254 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+10:12:31.273 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:12:40.107 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.

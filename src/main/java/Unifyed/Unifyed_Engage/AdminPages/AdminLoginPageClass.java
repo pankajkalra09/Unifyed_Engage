@@ -25,14 +25,11 @@ public class AdminLoginPageClass extends CommonUtilsClass {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
 	}
-
 	public void loginPageTitle() {
 		String pageTitle = driver.getTitle();
 		pageTitle.contains("Verify IDP");
 	}
-	
 	public AdminLandingPageClass loginMethodMethod(String uname, String pword) throws InterruptedException {
-		
 		loginButton.click();
 		Thread.sleep(3000);
 		username.sendKeys(uname);
