@@ -94,11 +94,10 @@
     <artifactId>cucumber-testng</artifactId>
     <version>7.14.0</version>
 </dependency>
-
-    
   </dependencies>
   
   <profiles>
+	  
     <profile>
     <id>Regression</id>
     <build>
@@ -114,7 +113,31 @@
         <version>3.1.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>test_Suite/testng.xml</suiteXmlFile>
+            <suiteXmlFile>test_Suite/category.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+      </plugins>
+      </pluginManagement>
+      </build>
+    </profile>
+    
+     <profile>
+    <id>MyDrive</id>
+    <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+    <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.1.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>test_Suite/myDrive.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -140,13 +163,13 @@
           <suiteXmlFiles>
             <suiteXmlFile>test_Suite/Sanity.xml</suiteXmlFile>
           </suiteXmlFiles>
-        
         </configuration>
       </plugin>
       </plugins>
       </pluginManagement>
       </build>
     </profile>
+    
     </profiles>
 
   <build>

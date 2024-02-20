@@ -30,8 +30,6 @@ public class CommonUtilsClass {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 	}
 	
-	
-	
 	public void landingHamburgerMethod() throws InterruptedException {		
 		//Thread.sleep(10000);
 		hamburger.click();
@@ -47,7 +45,4 @@ public class CommonUtilsClass {
 		return preferencePage;
 		
 	}
-	
-	
-	
 }
