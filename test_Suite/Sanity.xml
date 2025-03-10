@@ -6,7 +6,7 @@
 <listener class-name = "Unifyed.Unifyed_Engage.TestComponents.Listeners"/>
 </listeners>
 
- <test name="CategoryTest" thread-count="5">
+ <test name="CategoryTest" thread-count="1">
     <classes>
         <class name="Unifyed.Unifyed_Engage.LoginLogoutTest"/>   
     </classes>

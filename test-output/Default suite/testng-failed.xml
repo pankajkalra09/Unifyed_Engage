@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Unifyed.Unifyed_Engage.MyDrive_Test">
+      <class name="Cucumber.CucumberTestNGRunner">
         <methods>
-          <include name="driveClose"/>
-          <include name="launchAppMethod"/>
-          <include name="loginAdminside"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Unifyed.Unifyed_Engage.MyDrive_Test -->
+      </class> <!-- Cucumber.CucumberTestNGRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

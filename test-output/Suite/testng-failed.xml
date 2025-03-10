@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="Unifyed.Unifyed_Engage.TestComponents.Listeners"/>
   </listeners>
-  <test thread-count="5" name="CategoryTest(failed)">
+  <test thread-count="5" name="MyDriveFileUpload(failed)">
     <classes>
-      <class name="Unifyed.Unifyed_Engage.Category_Test">
+      <class name="Unifyed.Unifyed_Engage.MyDrive_Test">
         <methods>
-          <include name="categoryCreate"/>
+          <include name="myDriveFileUpload"/>
           <include name="driveClose"/>
           <include name="launchAppMethod"/>
         </methods>
-      </class> <!-- Unifyed.Unifyed_Engage.Category_Test -->
+      </class> <!-- Unifyed.Unifyed_Engage.MyDrive_Test -->
     </classes>
-  </test> <!-- CategoryTest(failed) -->
+  </test> <!-- MyDriveFileUpload(failed) -->
 </suite> <!-- Failed suite [Suite] -->

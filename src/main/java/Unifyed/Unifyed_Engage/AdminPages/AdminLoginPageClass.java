@@ -30,8 +30,8 @@ public class AdminLoginPageClass extends CommonUtilsClass {
 		pageTitle.contains("Verify IDP");
 	}
 	public AdminLandingPageClass loginMethodMethod(String uname, String pword) throws InterruptedException {
-		loginButton.click();
-		Thread.sleep(3000);
+		//loginButton.click();
+		//Thread.sleep(3000);
 		username.sendKeys(uname);
 		Thread.sleep(1000);
 		password.sendKeys(pword);

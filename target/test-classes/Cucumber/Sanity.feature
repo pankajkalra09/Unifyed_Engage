@@ -6,7 +6,7 @@ Feature: Sanity check to ensure Login Logout is working fine.
 	Background:
 	Given I landed onto enagage login page
 	
-  @tag2
+  @Sanity
   Scenario Outline: Login Logout checking
     Given logged in with username <username> and password <password>
     When I click on the profile drop down and click on the Logout option and click yes for the warning message

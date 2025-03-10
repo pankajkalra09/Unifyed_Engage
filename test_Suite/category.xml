@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Suite">
+=======
+
+<suite name="Category Test Suite">
+
+
+>>>>>>> 83a6d50 (Commit on 10 Mar 2025)
 
 <listeners>
 <listener class-name = "Unifyed.Unifyed_Engage.TestComponents.Listeners"/>
 </listeners>
 
+<<<<<<< HEAD
  <test name="CategoryTest" thread-count="5">
+=======
+
+<!--<test name="CategoryTest Functionality" thread-count="5">--> 
+ <test name="CategoryTest" thread-count="5">
+
+>>>>>>> 83a6d50 (Commit on 10 Mar 2025)
     <classes>
         <class name="Unifyed.Unifyed_Engage.Category_Test">
             
         </class>
     </classes>
 </test>
+<<<<<<< HEAD
 </suite> <!-- Suite -->
+=======
+</suite> <!-- Suite -->
+>>>>>>> 83a6d50 (Commit on 10 Mar 2025)

@@ -42,11 +42,13 @@ public class BaseClass {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
 				+ "\\src\\main\\java\\Unifyed\\Unifyed_Engage\\Resources\\GlobalData.properties");
 		prop.load(fis);
+		
+		//Java turnery operator. 
 		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") : prop.getProperty("browser");
 		//MutableCapabilities caps = new MutableCapabilities();
-		// if condition 1 "System.getProperty("browser")!=null" is true which means we are getting value of browser at runtime from command prompt
+		// if condition 1 "System.getProperty("browser")!=null" is true then second condition will run(System.getProperty("browser")), which means we are getting value of browser at runtime from command prompt when running from mvn commands 
 		//then run condition 2 "System.getProperty("browser")".
-		// if condition 1 "System.getProperty("browser")!=null" is false which means we are not getting value of browser at runtime from command prompt
+		// if condition 1 "System.getProperty("browser")!=null" is false then 3rd argument will execute(prop.getProperty("browser"), which means we are not getting value of browser at runtime from command prompt
 		//then run condition 3 "prop.getProperty("browser")".
 		//prop.getProperty("browser");
 		if (browserName.contains("chrome")) {
@@ -57,6 +59,8 @@ public class BaseClass {
 			chromePrefs.put("download.default_directory", downloadPath);
 			ChromeOptions option = new ChromeOptions(); //used to run tests in headless mode
 			option.setExperimentalOption("prefs", chromePrefs);
+			
+			WebDriverManager.chromedriver().clearDriverCache().setup();
 			//till here
 			WebDriverManager.chromedriver().setup();
 			if (browserName.contains("headless")) {
@@ -74,6 +78,7 @@ public class BaseClass {
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
+		//driver.switchTo().ne
 		return driver;
 	}
 	/*

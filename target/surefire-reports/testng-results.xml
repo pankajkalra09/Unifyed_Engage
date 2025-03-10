@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results retried="2" ignored="0" total="4" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2024-01-22T09:33:04 EST" name="Suite" finished-at="2024-01-22T09:34:30 EST" duration-ms="85782">
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-07T14:31:36 IST" name="Surefire suite" finished-at="2025-03-07T14:32:44 IST" duration-ms="67662">
+=======
+<testng-results retried="2" ignored="0" total="4" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-22T09:33:04 EST" name="Suite" finished-at="2024-01-22T09:34:30 EST" duration-ms="85782">
+>>>>>>> 8c8f14a683d71e4707eac3aebd5a025cc280da19
+>>>>>>> 83a6d50 (Commit on 10 Mar 2025)
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.CucumberTestNGRunner@4dbb42b7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <test started-at="2025-03-07T14:31:36 IST" name="Surefire test" finished-at="2025-03-07T14:32:44 IST" duration-ms="67662">
+      <class name="Cucumber.CucumberTestNGRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.CucumberTestNGRunner@4dbb42b7]" started-at="2025-03-07T14:31:36 IST" name="setUpClass" finished-at="2025-03-07T14:31:37 IST" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65da01f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.CucumberTestNGRunner@4dbb42b7]" started-at="2025-03-07T14:31:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-07T14:32:44 IST" duration-ms="66598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Logout checking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sanity check to ensure Login Logout is working fine."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber.CucumberTestNGRunner@4dbb42b7]" started-at="2025-03-07T14:32:44 IST" name="tearDownClass" finished-at="2025-03-07T14:32:44 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber.CucumberTestNGRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+=======
+>>>>>>> 83a6d50 (Commit on 10 Mar 2025)
     <test started-at="2024-01-22T09:33:04 EST" name="MyDriveFileUpload" finished-at="2024-01-22T09:34:30 EST" duration-ms="85782">
       <class name="Unifyed.Unifyed_Engage.MyDrive_Test">
         <test-method is-config="true" signature="launchAppMethod()[pri:0, instance:Unifyed.Unifyed_Engage.MyDrive_Test@12ed9db6]" started-at="2024-01-22T09:33:04 EST" name="launchAppMethod" finished-at="2024-01-22T09:33:17 EST" duration-ms="13154" status="PASS">
@@ -268,4 +326,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
       </class> <!-- Unifyed.Unifyed_Engage.MyDrive_Test -->
     </test> <!-- MyDriveFileUpload -->
   </suite> <!-- Suite -->
+<<<<<<< HEAD
+=======
+>>>>>>> 8c8f14a683d71e4707eac3aebd5a025cc280da19
+>>>>>>> 83a6d50 (Commit on 10 Mar 2025)
 </testng-results>

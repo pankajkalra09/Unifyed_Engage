@@ -21,7 +21,7 @@ import Unifyed.Unifyed_Engage.AdminPages.AdminPreferencePageClass;
 import Unifyed.Unifyed_Engage.CommonUtils.DataDriven;
 import Unifyed.Unifyed_Engage.TestComponents.BaseClass;
 import Unifyed.Unifyed_Engage.TestComponents.Retry;
-
+//8c8f14a683d71e4707eac3aebd5a025cc280da19
 public class Category_Test extends BaseClass{
 	
 	String categoryName = "Automation20Sep_8";
@@ -31,7 +31,6 @@ public class Category_Test extends BaseClass{
 
 	DataDriven datadriven = new DataDriven();
 	
-
 	@Test (priority=1, retryAnalyzer=Retry.class)	
 	public void categoryCreate() throws Exception {	
 		loginpage = new AdminLoginPageClass(driver);
@@ -41,7 +40,7 @@ public class Category_Test extends BaseClass{
 		AdminPreferencePageClass preferencePage = landingPage.landingPreferencesMethod();
 		categorylistmethod = preferencePage.preferenceManageCategoryMethod();
 		categorylistmethod.categoryCreationMethod(categoryName);
-		
+		//test
 	}
 	  @Test (priority=2, enabled=true, retryAnalyzer=Retry.class)	
 	  public void categoryEdit() throws InterruptedException {

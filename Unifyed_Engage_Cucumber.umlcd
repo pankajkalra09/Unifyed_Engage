@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LiKK0CHOEe-mgeDlUQTECA">
+  <modelElement href="Unifyed_Engage.uml#_LMqb8CHOEe-mgeDlUQTECA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mpx4YCHOEe-mgeDlUQTECA" sourceAnchor="93.0,0.0" targetAnchor="116.0,54.0" superClass="_mpyfcCHOEe-mgeDlUQTECA" subClass="_OlOTMCHOEe-mgeDlUQTECA">
+    <modelElement href="Unifyed_Engage.uml#_LUx2ISHOEe-mgeDlUQTECA"/>
+    <visualProperties xmi:id="_mpyfdCHOEe-mgeDlUQTECA" position="143.0,77.0"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mpyfcCHOEe-mgeDlUQTECA" name="AbstractTestNGCucumberTests" subclassedBy="_mpx4YCHOEe-mgeDlUQTECA">
+    <modelElement href="Unifyed_Engage.uml#_LUGgsSHOEe-mgeDlUQTECA"/>
+    <visualProperties xmi:id="_mpyfcSHOEe-mgeDlUQTECA" position="27.0,-78.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mpyfciHOEe-mgeDlUQTECA" name="Reference">
+      <modelElement href="Unifyed_Engage.uml#_LUGgsiHOEe-mgeDlUQTECA"/>
+    </stereotypes>
+    <visibility xmi:id="_mpyfcyHOEe-mgeDlUQTECA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OlOTMCHOEe-mgeDlUQTECA" name="CucumberTestNGRunner" generalizations="_mpx4YCHOEe-mgeDlUQTECA">
+    <modelElement href="Unifyed_Engage.uml#_LOTasCHOEe-mgeDlUQTECA"/>
+    <visualProperties xmi:id="_OlOTMSHOEe-mgeDlUQTECA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_OlOTMiHOEe-mgeDlUQTECA" name="LegacyStyledElement">
+      <modelElement href="Unifyed_Engage.uml#_LOVP4CHOEe-mgeDlUQTECA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_OlOTMyHOEe-mgeDlUQTECA" name="Annotations">
+      <modelElement href="Unifyed_Engage.uml#_LOWeACHOEe-mgeDlUQTECA"/>
+    </stereotypes>
+    <visibility xmi:id="_OlOTNCHOEe-mgeDlUQTECA" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

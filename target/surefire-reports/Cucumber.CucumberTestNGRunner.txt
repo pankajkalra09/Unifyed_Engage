@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Cucumber.CucumberTestNGRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 70.42 s -- in Cucumber.CucumberTestNGRunner

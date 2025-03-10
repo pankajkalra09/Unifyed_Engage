@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_jqpqQCHNEe-mgeDlUQTECA" name="model">
+    <eAnnotations xmi:id="_59DVUCHNEe-mgeDlUQTECA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_59DVUSHNEe-mgeDlUQTECA" source="codegen">
+        <details xmi:id="_59DVUiHNEe-mgeDlUQTECA" key="codegenDirectory" value="/Unifyed_Engage/src/main/java"/>
+        <details xmi:id="_6FzosCHNEe-mgeDlUQTECA" key="AssociatedSourceCode" value="/Unifyed_Engage/src/main/java/Unifyed/Unifyed_Engage/AdminPages/AdminCategoryListingClass.java;3505459917/1;/Unifyed_Engage/src/main/java/Unifyed/Unifyed_Engage/AdminPages/AdminLandingPageClass.java;3538473771/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_59GYoCHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_59G_sCHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_59G_sSHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_59HmwCHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_59HmwSHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_59HmwiHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_59HmwyHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_59IN0CHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_59I04CHNEe-mgeDlUQTECA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_58QEECHNEe-mgeDlUQTECA" name="Unifyed">
+      <packagedElement xmi:type="uml:Package" xmi:id="_58THYCHNEe-mgeDlUQTECA" name="Unifyed_Engage">
+        <packagedElement xmi:type="uml:Package" xmi:id="_58XY0SHNEe-mgeDlUQTECA" name="CommonUtils">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5_BrQCHNEe-mgeDlUQTECA" name="CommonUtilsClass"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_58mCUCHNEe-mgeDlUQTECA" name="AdminPages">
+          <packagedElement xmi:type="uml:Class" xmi:id="_58158CHNEe-mgeDlUQTECA" name="AdminCategoryListingClass">
+            <generalization xmi:id="_5_oIMCHNEe-mgeDlUQTECA" general="_5_BrQCHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_rykCHNEe-mgeDlUQTECA" name="driver" type="_5-4hUCHNEe-mgeDlUQTECA" association="_6Afq4CHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_tAsSHNEe-mgeDlUQTECA" name="listOfCategory" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" isOrdered="true" association="_6AjVQCHNEe-mgeDlUQTECA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5_tAsiHNEe-mgeDlUQTECA" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_5_wEACHNEe-mgeDlUQTECA" name="CategoryAdmin" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6AlKcCHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_x5MCHNEe-mgeDlUQTECA" name="CategoryAudience" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6AnmsCHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_zuYyHNEe-mgeDlUQTECA" name="AdminCheck" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6Apb4SHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_08gyHNEe-mgeDlUQTECA" name="randomClick" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6ArRESHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_2xsSHNEe-mgeDlUQTECA" name="AudienceCheck" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6AtGQCHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_4m4CHNEe-mgeDlUQTECA" name="CreateCategory" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6AuUYCHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_6cECHNEe-mgeDlUQTECA" name="CategoryName" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6AvigSHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_7DIyHNEe-mgeDlUQTECA" name="SaveButton" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6Ax-wCHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_5_8RQyHNEe-mgeDlUQTECA" name="editicon" visibility="package" type="_5-1eACHNEe-mgeDlUQTECA" association="_6Azz8SHNEe-mgeDlUQTECA">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_5_84UCHNEe-mgeDlUQTECA" value="By.xpath(&quot;.//following-sibling::div/button[contains(@aria-label,'edit')]&quot;)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_5_9fYSHNEe-mgeDlUQTECA" name="deleteicon" visibility="package" type="_5-1eACHNEe-mgeDlUQTECA" association="_6A1pISHNEe-mgeDlUQTECA">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_5_-tgCHNEe-mgeDlUQTECA" value="By.xpath(&quot;.//following-sibling::div/button[contains(@aria-label,'delete')]&quot;)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_5__UkCHNEe-mgeDlUQTECA" name="allCategory" visibility="package" type="_5-1eACHNEe-mgeDlUQTECA" association="_6A3eUSHNEe-mgeDlUQTECA">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_5__7oCHNEe-mgeDlUQTECA" value="By.xpath(&quot;//div[@role='list']/div/div[1]&quot;)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_6AAisCHNEe-mgeDlUQTECA" name="BackIcon" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6A4scSHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_6ACX4CHNEe-mgeDlUQTECA" name="deleteconfirmation" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6A56kSHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_6AENECHNEe-mgeDlUQTECA" name="cat" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_6A8W0CHNEe-mgeDlUQTECA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6APMMCHNEe-mgeDlUQTECA" name="AdminCategoryListingClass" specification="_5_iooCHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_6APMMSHNEe-mgeDlUQTECA" name="driver" type="_5-4hUCHNEe-mgeDlUQTECA"/>
+              <ownedParameter xmi:id="_6APMMiHNEe-mgeDlUQTECA" type="_58158CHNEe-mgeDlUQTECA" direction="return"/>
+              <language>java</language>
+              <body>// since we are extending commonutil class and we want to pass the driver to&#xD;
+		// that class. So from child to parent we can sent the driver&#xD;
+		// using the super() method. So if we are sending driver through super then that&#xD;
+		// driver should be caught in commonutil c lass with the help of constructor.&#xD;
+		super(driver);&#xD;
+		PageFactory.initElements(driver, this);&#xD;
+		this.driver = driver;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6ARBYCHNEe-mgeDlUQTECA" name="categorylistingMethod" specification="_59OUcCHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_6ARBYSHNEe-mgeDlUQTECA" type="_5-5vcCHNEe-mgeDlUQTECA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6ARBYiHNEe-mgeDlUQTECA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>explicitWaitmethod(allCategory);&#xD;
+		return listOfCategory;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6ARocCHNEe-mgeDlUQTECA" name="categoryCreationMethod" specification="_59VCICHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_6ARocSHNEe-mgeDlUQTECA" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>CreateCategory.click();&#xD;
+		Thread.sleep(2000);&#xD;
+		CategoryName.sendKeys(name);&#xD;
+		Thread.sleep(2000);&#xD;
+		SaveButton.click();&#xD;
+		Thread.sleep(2000);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6ASPgCHNEe-mgeDlUQTECA" name="categoryNameCheckMethod" specification="_59W3UCHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_6ASPgSHNEe-mgeDlUQTECA" name="categoryName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_6ASPgiHNEe-mgeDlUQTECA" type="_5-5vcCHNEe-mgeDlUQTECA" direction="return"/>
+              <language>java</language>
+              <body>WebElement newCategory = listOfCategory.stream().filter(s -> s.getText().equals(categoryName)).findFirst().orElse(null);&#xD;
+		return newCategory;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6AS2kCHNEe-mgeDlUQTECA" name="CategoryEditMethod" specification="_59YsgCHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_6AS2kSHNEe-mgeDlUQTECA" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>cat = categoryNameCheckMethod(name);&#xD;
+		if (cat != null) {&#xD;
+			Actions act = new Actions(driver);&#xD;
+			Thread.sleep(2000);&#xD;
+			cat.findElement(editicon).click();&#xD;
+			Thread.sleep(2000);&#xD;
+			CategoryAdmin.sendKeys(&quot;bus&quot;);&#xD;
+			Thread.sleep(2000);&#xD;
+			AdminCheck.click();&#xD;
+			Thread.sleep(2000);&#xD;
+			randomClick.click();&#xD;
+			CategoryAudience.sendKeys(&quot;Business&quot;);&#xD;
+			Thread.sleep(2000);&#xD;
+			AudienceCheck.click();&#xD;
+			Thread.sleep(2000);&#xD;
+			randomClick.click();&#xD;
+			Thread.sleep(2000);&#xD;
+			BackIcon.click();&#xD;
+			Thread.sleep(2000);&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6AS2kiHNEe-mgeDlUQTECA" name="categoryDeleteMethod" specification="_59ZTkCHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_6AS2kyHNEe-mgeDlUQTECA" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>cat = categoryNameCheckMethod(name);&#xD;
+		if (cat != null) {&#xD;
+			cat.findElement(deleteicon).click();&#xD;
+			Thread.sleep(2000);&#xD;
+			deleteconfirmation.click();&#xD;
+			Thread.sleep(2000);&#xD;
+		}&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_59OUcCHNEe-mgeDlUQTECA" name="categorylistingMethod" method="_6ARBYCHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_59QwsCHNEe-mgeDlUQTECA" type="_5-5vcCHNEe-mgeDlUQTECA" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_59RXwCHNEe-mgeDlUQTECA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_59VCICHNEe-mgeDlUQTECA" name="categoryCreationMethod" method="_6ARocCHNEe-mgeDlUQTECA" raisedException="_5_j2wSHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_59VCISHNEe-mgeDlUQTECA" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_59W3UCHNEe-mgeDlUQTECA" name="categoryNameCheckMethod" method="_6ASPgCHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_59W3USHNEe-mgeDlUQTECA" name="categoryName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5_nhICHNEe-mgeDlUQTECA" type="_5-5vcCHNEe-mgeDlUQTECA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_59YsgCHNEe-mgeDlUQTECA" name="CategoryEditMethod" method="_6AS2kCHNEe-mgeDlUQTECA" raisedException="_5_j2wSHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_59YsgSHNEe-mgeDlUQTECA" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_59ZTkCHNEe-mgeDlUQTECA" name="categoryDeleteMethod" method="_6AS2kiHNEe-mgeDlUQTECA" raisedException="_5_j2wSHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_59Z6oCHNEe-mgeDlUQTECA" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5_iooCHNEe-mgeDlUQTECA" name="AdminCategoryListingClass" method="_6APMMCHNEe-mgeDlUQTECA">
+              <eAnnotations xmi:id="_5_jPsCHNEe-mgeDlUQTECA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_5_jPsSHNEe-mgeDlUQTECA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_5_iooSHNEe-mgeDlUQTECA" name="driver" type="_5-4hUCHNEe-mgeDlUQTECA"/>
+              <ownedParameter xmi:id="_5_jPsiHNEe-mgeDlUQTECA" type="_58158CHNEe-mgeDlUQTECA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6Afq4CHNEe-mgeDlUQTECA" name="" memberEnd="_6Afq4SHNEe-mgeDlUQTECA _5_rykCHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6Afq4SHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6Afq4CHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6AjVQCHNEe-mgeDlUQTECA" name="" memberEnd="_6AjVQSHNEe-mgeDlUQTECA _5_tAsSHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6AjVQSHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6AjVQCHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6AlKcCHNEe-mgeDlUQTECA" name="" memberEnd="_6AlKcSHNEe-mgeDlUQTECA _5_wEACHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6AlKcSHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6AlKcCHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6AnmsCHNEe-mgeDlUQTECA" name="" memberEnd="_6AnmsSHNEe-mgeDlUQTECA _5_x5MCHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6AnmsSHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6AnmsCHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6Apb4SHNEe-mgeDlUQTECA" name="" memberEnd="_6Apb4iHNEe-mgeDlUQTECA _5_zuYyHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6Apb4iHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6Apb4SHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6ArRESHNEe-mgeDlUQTECA" name="" memberEnd="_6ArREiHNEe-mgeDlUQTECA _5_08gyHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6ArREiHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6ArRESHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6AtGQCHNEe-mgeDlUQTECA" name="" memberEnd="_6AtGQSHNEe-mgeDlUQTECA _5_2xsSHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6AtGQSHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6AtGQCHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6AuUYCHNEe-mgeDlUQTECA" name="" memberEnd="_6AuUYSHNEe-mgeDlUQTECA _5_4m4CHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6AuUYSHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6AuUYCHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6AvigSHNEe-mgeDlUQTECA" name="" memberEnd="_6AvigiHNEe-mgeDlUQTECA _5_6cECHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6AvigiHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6AvigSHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6Ax-wCHNEe-mgeDlUQTECA" name="" memberEnd="_6Ax-wSHNEe-mgeDlUQTECA _5_7DIyHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6Ax-wSHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6Ax-wCHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6Azz8SHNEe-mgeDlUQTECA" name="" memberEnd="_6Azz8iHNEe-mgeDlUQTECA _5_8RQyHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6Azz8iHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6Azz8SHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6A1pISHNEe-mgeDlUQTECA" name="" memberEnd="_6A1pIiHNEe-mgeDlUQTECA _5_9fYSHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6A1pIiHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6A1pISHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6A3eUSHNEe-mgeDlUQTECA" name="" memberEnd="_6A3eUiHNEe-mgeDlUQTECA _5__UkCHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6A3eUiHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6A3eUSHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6A4scSHNEe-mgeDlUQTECA" name="" memberEnd="_6A4sciHNEe-mgeDlUQTECA _6AAisCHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6A4sciHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6A4scSHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6A56kSHNEe-mgeDlUQTECA" name="" memberEnd="_6A56kiHNEe-mgeDlUQTECA _6ACX4CHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6A56kiHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6A56kSHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6A8W0CHNEe-mgeDlUQTECA" name="" memberEnd="_6A8W0SHNEe-mgeDlUQTECA _6AENECHNEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_6A8W0SHNEe-mgeDlUQTECA" name="" type="_58158CHNEe-mgeDlUQTECA" association="_6A8W0CHNEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_AdzFgCHOEe-mgeDlUQTECA" name="AdminLandingPageClass">
+            <generalization xmi:id="_AeawkCHOEe-mgeDlUQTECA" general="_5_BrQCHNEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_AeisYCHOEe-mgeDlUQTECA" name="driver" type="_5-4hUCHNEe-mgeDlUQTECA" association="_AezLECHOEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_AejTcSHOEe-mgeDlUQTECA" name="hamburger" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_AezyISHOEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_AelIoCHOEe-mgeDlUQTECA" name="profileDropDown" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_Ae0ZMSHOEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_AemWwCHOEe-mgeDlUQTECA" name="preferenceElement" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_Ae1nUSHOEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_Aem90yHOEe-mgeDlUQTECA" name="studioElement" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_Ae21cCHOEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_AeoL8SHOEe-mgeDlUQTECA" name="profileElement" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_Ae3cgSHOEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_AepaEyHOEe-mgeDlUQTECA" name="logoutElement" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_Ae4DkSHOEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_AerPQCHOEe-mgeDlUQTECA" name="logoutYes" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_Ae4qoSHOEe-mgeDlUQTECA"/>
+            <ownedAttribute xmi:id="_AesdYSHOEe-mgeDlUQTECA" name="searchTextElement" visibility="package" type="_5-5vcCHNEe-mgeDlUQTECA" association="_Ae5RsSHOEe-mgeDlUQTECA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Aeu5oCHOEe-mgeDlUQTECA" name="AdminLandingPageClass" specification="_AeY7YCHOEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_Aeu5oSHOEe-mgeDlUQTECA" name="driver" type="_5-4hUCHNEe-mgeDlUQTECA"/>
+              <ownedParameter xmi:id="_Aeu5oiHOEe-mgeDlUQTECA" type="_AdzFgCHOEe-mgeDlUQTECA" direction="return"/>
+              <language>java</language>
+              <body>//since we are extending commonutil class and we want to pass the driver to that class. So from child to parent we can sent the driver&#xD;
+				//using the super() method. So if we are sending driver through super then that driver should be caught in commonutil class with the help of constructor.&#xD;
+				super(driver);&#xD;
+		PageFactory.initElements(driver, this);&#xD;
+		this.driver=driver;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Aeu5oyHOEe-mgeDlUQTECA" name="explicitWaitmethod" specification="_AeaJgCHOEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_Aeu5pCHOEe-mgeDlUQTECA" name="findBy" type="_5-1eACHNEe-mgeDlUQTECA"/>
+              <language>java</language>
+              <body>WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));&#xD;
+		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AevgsCHOEe-mgeDlUQTECA" name="search" specification="_Ad2I0CHOEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_AevgsSHOEe-mgeDlUQTECA" name="searchtext">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>searchTextElement.sendKeys(searchtext);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AevgsiHOEe-mgeDlUQTECA" name="landingHamburgerMethod" specification="_Ad3W8CHOEe-mgeDlUQTECA">
+              <language>java</language>
+              <body>//Thread.sleep(10000);&#xD;
+		hamburger.click();&#xD;
+		Thread.sleep(2000);	&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AevgsyHOEe-mgeDlUQTECA" name="landingPreferencesMethod" specification="_Ad3-ACHOEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_AevgtCHOEe-mgeDlUQTECA" type="_AefCACHOEe-mgeDlUQTECA" direction="return"/>
+              <language>java</language>
+              <body>profileDropDown.click();&#xD;
+		Thread.sleep(2000);&#xD;
+		preferenceElement.click();  &#xD;
+		Thread.sleep(2000);&#xD;
+		AdminPreferencePageClass preferencePage = new AdminPreferencePageClass(driver);&#xD;
+		return preferencePage;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AevgtSHOEe-mgeDlUQTECA" name="landingStudioMethod" specification="_Ad5zMCHOEe-mgeDlUQTECA">
+              <language>java</language>
+              <body>profileDropDown.click();&#xD;
+		Thread.sleep(1000);&#xD;
+		studioElement.click();  &#xD;
+		Thread.sleep(2000);&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AevgtiHOEe-mgeDlUQTECA" name="landingProfileMethod" specification="_Ad6aQCHOEe-mgeDlUQTECA">
+              <language>java</language>
+              <body>profileDropDown.click();&#xD;
+		Thread.sleep(1000);&#xD;
+		profileElement.click();  &#xD;
+		Thread.sleep(2000);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AewHwCHOEe-mgeDlUQTECA" name="landingLogoutMethod" specification="_Ad7oYCHOEe-mgeDlUQTECA">
+              <language>java</language>
+              <body>profileDropDown.click();&#xD;
+		Thread.sleep(1000);&#xD;
+		logoutElement.click();&#xD;
+		Thread.sleep(1000);&#xD;
+		logoutYes.click();&#xD;
+		Thread.sleep(4000);	&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Ad2I0CHOEe-mgeDlUQTECA" name="search" method="_AevgsCHOEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_Ad2v4CHOEe-mgeDlUQTECA" name="searchtext">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Ad3W8CHOEe-mgeDlUQTECA" name="landingHamburgerMethod" method="_AevgsiHOEe-mgeDlUQTECA" raisedException="_5_j2wSHNEe-mgeDlUQTECA"/>
+            <ownedOperation xmi:id="_Ad3-ACHOEe-mgeDlUQTECA" name="landingPreferencesMethod" method="_AevgsyHOEe-mgeDlUQTECA" raisedException="_5_j2wSHNEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_AefpESHOEe-mgeDlUQTECA" type="_AefCACHOEe-mgeDlUQTECA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Ad5zMCHOEe-mgeDlUQTECA" name="landingStudioMethod" method="_AevgtSHOEe-mgeDlUQTECA" raisedException="_5_j2wSHNEe-mgeDlUQTECA"/>
+            <ownedOperation xmi:id="_Ad6aQCHOEe-mgeDlUQTECA" name="landingProfileMethod" method="_AevgtiHOEe-mgeDlUQTECA" raisedException="_5_j2wSHNEe-mgeDlUQTECA"/>
+            <ownedOperation xmi:id="_Ad7oYCHOEe-mgeDlUQTECA" name="landingLogoutMethod" method="_AewHwCHOEe-mgeDlUQTECA" raisedException="_5_j2wSHNEe-mgeDlUQTECA"/>
+            <ownedOperation xmi:id="_AeY7YCHOEe-mgeDlUQTECA" name="AdminLandingPageClass" method="_Aeu5oCHOEe-mgeDlUQTECA">
+              <eAnnotations xmi:id="_AeZicSHOEe-mgeDlUQTECA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AeZiciHOEe-mgeDlUQTECA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_AeZicCHOEe-mgeDlUQTECA" name="driver" type="_5-4hUCHNEe-mgeDlUQTECA"/>
+              <ownedParameter xmi:id="_AeZicyHOEe-mgeDlUQTECA" type="_AdzFgCHOEe-mgeDlUQTECA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AeaJgCHOEe-mgeDlUQTECA" name="explicitWaitmethod" method="_Aeu5oyHOEe-mgeDlUQTECA">
+              <ownedParameter xmi:id="_AeaJgSHOEe-mgeDlUQTECA" name="findBy" type="_5-1eACHNEe-mgeDlUQTECA"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_AefCACHOEe-mgeDlUQTECA" name="AdminPreferencePageClass"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_AezLECHOEe-mgeDlUQTECA" name="" memberEnd="_AezLESHOEe-mgeDlUQTECA _AeisYCHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_AezLESHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_AezLECHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_AezyISHOEe-mgeDlUQTECA" name="" memberEnd="_AezyIiHOEe-mgeDlUQTECA _AejTcSHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_AezyIiHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_AezyISHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ae0ZMSHOEe-mgeDlUQTECA" name="" memberEnd="_Ae0ZMiHOEe-mgeDlUQTECA _AelIoCHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_Ae0ZMiHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_Ae0ZMSHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ae1nUSHOEe-mgeDlUQTECA" name="" memberEnd="_Ae1nUiHOEe-mgeDlUQTECA _AemWwCHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_Ae1nUiHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_Ae1nUSHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ae21cCHOEe-mgeDlUQTECA" name="" memberEnd="_Ae21cSHOEe-mgeDlUQTECA _Aem90yHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_Ae21cSHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_Ae21cCHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ae3cgSHOEe-mgeDlUQTECA" name="" memberEnd="_Ae3cgiHOEe-mgeDlUQTECA _AeoL8SHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_Ae3cgiHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_Ae3cgSHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ae4DkSHOEe-mgeDlUQTECA" name="" memberEnd="_Ae4DkiHOEe-mgeDlUQTECA _AepaEyHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_Ae4DkiHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_Ae4DkSHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ae4qoSHOEe-mgeDlUQTECA" name="" memberEnd="_Ae4qoiHOEe-mgeDlUQTECA _AerPQCHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_Ae4qoiHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_Ae4qoSHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ae5RsSHOEe-mgeDlUQTECA" name="" memberEnd="_Ae5RsiHOEe-mgeDlUQTECA _AesdYSHOEe-mgeDlUQTECA">
+            <ownedEnd xmi:id="_Ae5RsiHOEe-mgeDlUQTECA" name="" type="_AdzFgCHOEe-mgeDlUQTECA" association="_Ae5RsSHOEe-mgeDlUQTECA"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_58VjoCHNEe-mgeDlUQTECA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_58WKsCHNEe-mgeDlUQTECA" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5-wlgCHNEe-mgeDlUQTECA" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5_j2wCHNEe-mgeDlUQTECA" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_5_j2wSHNEe-mgeDlUQTECA" name="InterruptedException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_AdKzYCHOEe-mgeDlUQTECA" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_AeWfICHOEe-mgeDlUQTECA" name="Duration"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_58WKsSHNEe-mgeDlUQTECA" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_58WKsiHNEe-mgeDlUQTECA" name="openqa">
+        <packagedElement xmi:type="uml:Package" xmi:id="_58WKsyHNEe-mgeDlUQTECA" name="selenium">
+          <packagedElement xmi:type="uml:Package" xmi:id="_58WxwCHNEe-mgeDlUQTECA" name="interactions">
+            <packagedElement xmi:type="uml:Class" xmi:id="_5-69kSHNEe-mgeDlUQTECA" name="Actions"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_58WxwSHNEe-mgeDlUQTECA" name="support">
+            <packagedElement xmi:type="uml:Package" xmi:id="_58XY0CHNEe-mgeDlUQTECA" name="ui">
+              <packagedElement xmi:type="uml:Class" xmi:id="_5-_PASHNEe-mgeDlUQTECA" name="ExpectedConditions"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_AeXtQCHOEe-mgeDlUQTECA" name="WebDriverWait"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_5-8ywCHNEe-mgeDlUQTECA" name="FindBy"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_5--A4SHNEe-mgeDlUQTECA" name="PageFactory"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5-1eACHNEe-mgeDlUQTECA" name="By"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_5-4hUCHNEe-mgeDlUQTECA" name="WebDriver"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_5-5vcCHNEe-mgeDlUQTECA" name="WebElement"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_583IECHNEe-mgeDlUQTECA">
+      <eAnnotations xmi:id="_587ZgCHNEe-mgeDlUQTECA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Reference xmi:id="_5-yasCHNEe-mgeDlUQTECA" base_Element="_5-wlgCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5-36QCHNEe-mgeDlUQTECA" base_Element="_5-1eACHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5-5IYCHNEe-mgeDlUQTECA" base_Element="_5-4hUCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5-69kCHNEe-mgeDlUQTECA" base_Element="_5-5vcCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5-8LsCHNEe-mgeDlUQTECA" base_Element="_5-69kSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5--A4CHNEe-mgeDlUQTECA" base_Element="_5-8ywCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5-_PACHNEe-mgeDlUQTECA" base_Element="_5--A4SHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5_BEMCHNEe-mgeDlUQTECA" base_Element="_5-_PASHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5_CSUCHNEe-mgeDlUQTECA" base_Element="_5_BrQCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_5_lr8CHNEe-mgeDlUQTECA" base_Element="_5_j2wSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_tAsCHNEe-mgeDlUQTECA" base_Element="_5_rykCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_tnwCHNEe-mgeDlUQTECA" base_Element="_5_tAsSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_u14CHNEe-mgeDlUQTECA" base_Element="_5_tAsSHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_vc8CHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_vc8SHNEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AUEsCHNEe-mgeDlUQTECA" value="&quot;//div[@role='list']/div/div[1]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_wrECHNEe-mgeDlUQTECA" base_Element="_5_wEACHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_xSICHNEe-mgeDlUQTECA" base_Element="_5_wEACHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_xSISHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_xSIiHNEe-mgeDlUQTECA" name="id" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AUrwCHNEe-mgeDlUQTECA" value="&quot;groupSearchText&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_ygQCHNEe-mgeDlUQTECA" base_Element="_5_x5MCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_zuYCHNEe-mgeDlUQTECA" base_Element="_5_x5MCHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_zuYSHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_zuYiHNEe-mgeDlUQTECA" name="id" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AUrwSHNEe-mgeDlUQTECA" value="&quot;audienceSearchText&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_0VcCHNEe-mgeDlUQTECA" base_Element="_5_zuYyHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_08gCHNEe-mgeDlUQTECA" base_Element="_5_zuYyHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_08gSHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_08giHNEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AVS0CHNEe-mgeDlUQTECA" value="&quot;//input[@id='searchEmain0']//following-sibling::div&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_1jkCHNEe-mgeDlUQTECA" base_Element="_5_08gyHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_2KoCHNEe-mgeDlUQTECA" base_Element="_5_08gyHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_2KoSHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_2xsCHNEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AVS0SHNEe-mgeDlUQTECA" value="&quot;//div[text() = 'CONNECT ADMIN ']&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_3YwCHNEe-mgeDlUQTECA" base_Element="_5_2xsSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_3_0CHNEe-mgeDlUQTECA" base_Element="_5_2xsSHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_3_0SHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_3_0iHNEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AV54CHNEe-mgeDlUQTECA" value="&quot;//li[@role='listitem']//div[contains(@class,'indicator')]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_4m4SHNEe-mgeDlUQTECA" base_Element="_5_4m4CHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_51ACHNEe-mgeDlUQTECA" base_Element="_5_4m4CHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_51ASHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_51AiHNEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AV54SHNEe-mgeDlUQTECA" value="&quot;//div[@class='createCategory']/button[1]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_6cESHNEe-mgeDlUQTECA" base_Element="_5_6cECHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_7DICHNEe-mgeDlUQTECA" base_Element="_5_6cECHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_7DISHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_7DIiHNEe-mgeDlUQTECA" name="id" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AV54iHNEe-mgeDlUQTECA" value="&quot;categoryName&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_7qMCHNEe-mgeDlUQTECA" base_Element="_5_7DIyHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_5_8RQCHNEe-mgeDlUQTECA" base_Element="_5_7DIyHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_5_8RQSHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_5_8RQiHNEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AXIACHNEe-mgeDlUQTECA" value="&quot;//div[@class='text-right']/button[2]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_9fYCHNEe-mgeDlUQTECA" base_Element="_5_8RQyHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5_-tgSHNEe-mgeDlUQTECA" base_Element="_5_9fYSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5__7oSHNEe-mgeDlUQTECA" base_Element="_5__UkCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6ABJwCHNEe-mgeDlUQTECA" base_Element="_6AAisCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_6ABw0CHNEe-mgeDlUQTECA" base_Element="_6AAisCHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_6ABw0SHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_6ABw0iHNEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AXIASHNEe-mgeDlUQTECA" value="&quot;//button[@class='uniTextButton textPrimary']&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6ACX4SHNEe-mgeDlUQTECA" base_Element="_6ACX4CHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_6ADmACHNEe-mgeDlUQTECA" base_Element="_6ACX4CHNEe-mgeDlUQTECA">
+    <annotations xmi:id="_6ADmASHNEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_6ADmAiHNEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_6AXIAiHNEe-mgeDlUQTECA" value="&quot;//div[@class='jconfirm-buttons']/button[contains(text(), 'DELETE')]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6AENESHNEe-mgeDlUQTECA" base_Element="_6AENECHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6AiuMCHNEe-mgeDlUQTECA" base_Element="_6Afq4CHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6AkjYCHNEe-mgeDlUQTECA" base_Element="_6AjVQCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6Am_oCHNEe-mgeDlUQTECA" base_Element="_6AlKcCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6Apb4CHNEe-mgeDlUQTECA" base_Element="_6AnmsCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6ArRECHNEe-mgeDlUQTECA" base_Element="_6Apb4SHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6AsfMCHNEe-mgeDlUQTECA" base_Element="_6ArRESHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6AttUCHNEe-mgeDlUQTECA" base_Element="_6AtGQCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6AvigCHNEe-mgeDlUQTECA" base_Element="_6AuUYCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6AxXsCHNEe-mgeDlUQTECA" base_Element="_6AvigSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6Azz8CHNEe-mgeDlUQTECA" base_Element="_6Ax-wCHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6A1pICHNEe-mgeDlUQTECA" base_Element="_6Azz8SHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6A3eUCHNEe-mgeDlUQTECA" base_Element="_6A1pISHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6A4scCHNEe-mgeDlUQTECA" base_Element="_6A3eUSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6A56kCHNEe-mgeDlUQTECA" base_Element="_6A4scSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6A7vwCHNEe-mgeDlUQTECA" base_Element="_6A56kSHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_6A9k8CHNEe-mgeDlUQTECA" base_Element="_6A8W0CHNEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_AeXGMCHOEe-mgeDlUQTECA" base_Element="_AeWfICHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_AeYUUCHOEe-mgeDlUQTECA" base_Element="_AeXtQCHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_AefpECHOEe-mgeDlUQTECA" base_Element="_AefCACHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AejTcCHOEe-mgeDlUQTECA" base_Element="_AeisYCHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Aej6gCHOEe-mgeDlUQTECA" base_Element="_AejTcSHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_AekhkCHOEe-mgeDlUQTECA" base_Element="_AejTcSHOEe-mgeDlUQTECA">
+    <annotations xmi:id="_AekhkSHOEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_AekhkiHOEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_AewHwSHOEe-mgeDlUQTECA" value="&quot;//div[@id='addToggleMode']/img&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AelvsCHOEe-mgeDlUQTECA" base_Element="_AelIoCHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_AelvsSHOEe-mgeDlUQTECA" base_Element="_AelIoCHOEe-mgeDlUQTECA">
+    <annotations xmi:id="_AelvsiHOEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_AelvsyHOEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Aewu0CHOEe-mgeDlUQTECA" value="&quot;//a[@id='accessDropdown']/span&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AemWwSHOEe-mgeDlUQTECA" base_Element="_AemWwCHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_Aem90CHOEe-mgeDlUQTECA" base_Element="_AemWwCHOEe-mgeDlUQTECA">
+    <annotations xmi:id="_Aem90SHOEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_Aem90iHOEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Aewu0SHOEe-mgeDlUQTECA" value="&quot;//ul[@class='dropdown-menu']/li/a[contains(text(),'Preferences')]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Aenk4CHOEe-mgeDlUQTECA" base_Element="_Aem90yHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_Aenk4SHOEe-mgeDlUQTECA" base_Element="_Aem90yHOEe-mgeDlUQTECA">
+    <annotations xmi:id="_Aenk4iHOEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_AeoL8CHOEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Aewu0iHOEe-mgeDlUQTECA" value="&quot;//ul[@class='dropdown-menu']/li/a[contains(text(),'Studio')]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AeozACHOEe-mgeDlUQTECA" base_Element="_AeoL8SHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_AepaECHOEe-mgeDlUQTECA" base_Element="_AeoL8SHOEe-mgeDlUQTECA">
+    <annotations xmi:id="_AepaESHOEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_AepaEiHOEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Aewu0yHOEe-mgeDlUQTECA" value="&quot;//ul[@class='dropdown-menu']/li/a[contains(text(),'Profile')]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AeqBICHOEe-mgeDlUQTECA" base_Element="_AepaEyHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_AeqoMCHOEe-mgeDlUQTECA" base_Element="_AepaEyHOEe-mgeDlUQTECA">
+    <annotations xmi:id="_AeqoMSHOEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_AeqoMiHOEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Aewu1CHOEe-mgeDlUQTECA" value="&quot;//ul[@class='dropdown-menu']/li/a[contains(text(),'Logout')]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Aer2UCHOEe-mgeDlUQTECA" base_Element="_AerPQCHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_Aer2USHOEe-mgeDlUQTECA" base_Element="_AerPQCHOEe-mgeDlUQTECA">
+    <annotations xmi:id="_Aer2UiHOEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_AesdYCHOEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Aewu1SHOEe-mgeDlUQTECA" value="&quot;//div[@class='jconfirm-buttons']/button[contains(text(),'YES')]&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AetEcCHOEe-mgeDlUQTECA" base_Element="_AesdYSHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Annotations xmi:id="_AetEcSHOEe-mgeDlUQTECA" base_Element="_AesdYSHOEe-mgeDlUQTECA">
+    <annotations xmi:id="_AetEciHOEe-mgeDlUQTECA" name="FindBy">
+      <annotationParameters xmi:id="_AetrgCHOEe-mgeDlUQTECA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Aewu1iHOEe-mgeDlUQTECA" value="&quot;//input[@id='searchBox']&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_AezyICHOEe-mgeDlUQTECA" base_Element="_AezLECHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_Ae0ZMCHOEe-mgeDlUQTECA" base_Element="_AezyISHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_Ae1nUCHOEe-mgeDlUQTECA" base_Element="_Ae0ZMSHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_Ae2OYCHOEe-mgeDlUQTECA" base_Element="_Ae1nUSHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_Ae3cgCHOEe-mgeDlUQTECA" base_Element="_Ae21cCHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_Ae4DkCHOEe-mgeDlUQTECA" base_Element="_Ae3cgSHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_Ae4qoCHOEe-mgeDlUQTECA" base_Element="_Ae4DkSHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_Ae5RsCHOEe-mgeDlUQTECA" base_Element="_Ae4qoSHOEe-mgeDlUQTECA"/>
+  <UMLLabProfile:Reference xmi:id="_Ae6f0CHOEe-mgeDlUQTECA" base_Element="_Ae5RsSHOEe-mgeDlUQTECA"/>
+</xmi:XMI>
