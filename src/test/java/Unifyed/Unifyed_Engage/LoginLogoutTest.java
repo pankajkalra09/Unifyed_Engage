@@ -13,7 +13,7 @@ public class LoginLogoutTest extends BaseClass{
 	
 	AdminLandingPageClass landingPage = new AdminLandingPageClass(driver);
 
-//
+//testing
 	@Test (dataProvider="LoginTest", dataProviderClass = DataProviders.class, priority=1, retryAnalyzer = Retry.class)	
 	public void LoginLogoutMethod(String user_name, String pass_word) throws Exception {	
 		loginpage = new AdminLoginPageClass(driver);
