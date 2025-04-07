@@ -24,7 +24,7 @@ import Unifyed.Unifyed_Engage.TestComponents.Retry;
 //8c8f14a683d71e4707eac3aebd5a025cc280da19
 public class Category_Test extends BaseClass{
 	
-	String categoryName = "Automation20Sep_8";
+	String categoryName = "AutomationCategory";
 	
 	AdminCategoryListingClass categorylistmethod = new AdminCategoryListingClass(driver);
 	AdminLandingPageClass landingPage = new AdminLandingPageClass(driver);
