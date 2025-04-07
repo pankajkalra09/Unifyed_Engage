@@ -38,6 +38,7 @@ public class AdminLoginPageClass extends CommonUtilsClass {
 		Thread.sleep(1000);
 		singInButton.click();
 		Thread.sleep(6000);
+		//checking PR
 		AdminLandingPageClass landingPage = new AdminLandingPageClass(driver);
 		return landingPage;
 	}
