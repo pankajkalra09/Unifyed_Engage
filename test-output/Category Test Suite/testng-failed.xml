@@ -10,7 +10,9 @@
         <methods>
           <include name="categoryDelete"/>
           <include name="driveClose"/>
+          <include name="categoryCreate"/>
           <include name="launchAppMethod"/>
+          <include name="categoryEdit"/>
         </methods>
       </class> <!-- Unifyed.Unifyed_Engage.Category_Test -->
     </classes>
