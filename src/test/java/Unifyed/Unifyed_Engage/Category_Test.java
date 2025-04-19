@@ -53,7 +53,7 @@ public class Category_Test extends BaseClass{
 	  }
 	  
 	  //checking branching
-	  
+	  //new changes in test branch
 	/*
 	 * @DataProvider public Object[][] getLogin() throws IOException{
 	 * List<HashMap<String, String>> data =
